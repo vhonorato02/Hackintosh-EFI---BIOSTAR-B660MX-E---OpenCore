@@ -117,7 +117,7 @@
 
 ## Screenshots
 
-(images/about-this-mac.png)
+(images/about.png)
 (images/geekbench1.png)
 (images/geekbench2.png)
 
@@ -133,4 +133,4 @@
 - https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html
 - https://dortania.github.io/Getting-Started-With-ACPI/
 - https://github.com/hackintosh-club/BIOSTAR-B660GTN-OpenCore
-- https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-12THGEN-ALDER-LAKE-PUBLIC - Thank you!
+- https://github.com/luchina-gabriel/BASE-EFI-INTEL-DESKTOP-12THGEN-ALDER-LAKE-PUBLIC - Special thanks!
