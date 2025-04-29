@@ -7,12 +7,12 @@
 
 | Component         | Model                                  |
 | ----------------- | -------------------------------------- |
-| Motherboard       | Biostar B660MX-E                      |
+| Motherboard       | Biostar B660MX-E Rev 6.0               |
 | Processor         | Intel Core i5-12400 (6c/12t)           |
 | RAM               | 1x 16GB DDR4-3200MHz (Single Channel)  |
 | GPU               | AMD Radeon RX 560 (Polaris 21 XT)      |
 | SSD               | Kingston SA400S37480G (480GB SATA)     |
-| Ethernet          | Intel I219V                           |
+| Ethernet          | Intel I219V                            |
 | Audio             | Realtek ALC897 (not tested)            |
 
 ## SMBIOS
@@ -26,27 +26,21 @@
 **Disable:**
 - Fast Boot
 - Secure Boot
-- Serial/COM Port
-- Parallel Port
+- Serial/COM Port | Parallel Port
 - VT-d (can be enabled if `DisableIoMapper` is set to YES)
 - Compatibility Support Module (CSM)
-- Thunderbolt (disable for initial install)
-- Intel SGX
-- Intel Platform Trust
-- CFG Lock (if not found, enable `AppleXcpmCfgLock` in config.plist)
+- CFG Lock
 
 **Enable:**
 - VT-x
 - Above 4G decoding
-- Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
-- OS Type: Windows 8.1/10 UEFI Mode
 - SATA Mode: AHCI
 
 **Additional notes:**
-- **Above 4G decoding** must be enabled. If not available, add `npci=0x2000` to boot-args.
-- **Resizable BAR Support**: if present, must be disabled.
+- **Above 4G decoding** must be enabled.
+- **Resizable BAR Support**: must be disabled.
 
 **Detailed BIOS paths:**
 
@@ -70,12 +64,11 @@
 - HDMI audio (via RX 560)
 - Full graphics acceleration (RX 560 - Metal support)
 - Ethernet (Intel I219V)
-- USB 2.0 and 3.0 ports (mapped with UTBMap)
+- USB 2.0 and 3.0 ports (mapped with UTBMap - Via Windows)
 
 ## Not Working
 
-- Direct boot from SSD (currently needs USB boot)
-- Boot Chime (not configured/tested)
+- Direct boot from SSD (currently needs USB boot, couldn't fix yet, don't know why)
 
 ## Not Tested
 
