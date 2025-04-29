@@ -117,9 +117,9 @@
 
 ## Screenshots
 
-(images/about.png)
-(images/geekbench1.png)
-(images/geekbench2.png)
+![About This Mac](images/about.png)
+![Geekbench macOS](images/geekbench1.png)
+![Geekbench Windows](images/geekbench2.png)
 
 ---
 
